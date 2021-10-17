@@ -3,8 +3,8 @@ import asyncio
 from pyrogram import Client, filters
 from pyrogram.types import Message
 
-from DaisyXMusic.config import SUDO_USERS
-from DaisyXMusic.services.callsmusic.callsmusic import client as USER
+from Xmarty_Music.config import SUDO_USERS
+from Xmarty_Music.services.callsmusic.callsmusic import client as USER
 
 
 @Client.on_message(filters.command(["broadcast"]))
