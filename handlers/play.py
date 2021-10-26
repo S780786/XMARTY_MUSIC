@@ -77,6 +77,7 @@ async def generate_cover(requested_by, title, views, duration, thumbnail):
         f"α∂∂є∂ ϐγ: {requested_by}",
         (255, 255, 255),
         font=font,
+        @xmarty_support
     )
     img.save("final.png")
     os.remove("temp.png")
@@ -261,8 +262,8 @@ async def play(_, message: Message):
                             text="γουτυϐє 🎬",
                             url=f"{url}"),
                         InlineKeyboardButton(
-                            text="∂οωиℓοα∂ 📥",
-                            url=f"{durl}")
+                            text="ѕυρροяτ gяουρ",
+                            url=f"https:\\t.me\xmarty_support")
 
                     ]
                 ]
